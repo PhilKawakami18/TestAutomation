@@ -28,8 +28,8 @@ namespace TestAutomation
         [After]
         public void CloseWebDriver(ScenarioContext context)
         {
-          //var driver = context["WEB_DRIVER"] as IWebDriver;
-          //driver.Quit();
+          var driver = context["WEB_DRIVER"] as IWebDriver;
+          driver.Quit();
         }
     }
 }
