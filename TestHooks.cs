@@ -19,8 +19,8 @@ namespace TestAutomation
 
             //
             driver.Url = $"https://dashboardtest.intellin.com/login";
-            driver.FindElement(By.XPath("//*[@id='root']/div/div/div/div[1]/div/div/div[2]/div/div[1]/div/input")).SendKeys("clinician@gendius.co.uk");
-            driver.FindElement(By.XPath("//*[@id='root']/div/div/div/div[1]/div/div/div[2]/div/div[3]/div/input")).SendKeys("Phil1804");
+            driver.FindElement(By.XPath("//*[@id='root']/div/div/div/div[1]/div/div/div[2]/div/div[1]/div/input")).SendKeys("*********");
+            driver.FindElement(By.XPath("//*[@id='root']/div/div/div/div[1]/div/div/div[2]/div/div[3]/div/input")).SendKeys("*********");
             driver.FindElement(By.XPath("//*[@id='root']/div/div/div/div[1]/div/div/div[2]/div/div[4]/button")).Click();
             
         }
